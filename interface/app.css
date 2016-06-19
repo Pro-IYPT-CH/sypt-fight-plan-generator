@@ -1,0 +1,15 @@
+body {
+	padding: 20px;
+}
+
+.ui.accordion .title {
+	font-size: 18px!important;
+}
+
+/*
+	. => Class
+	# => ID
+
+	a b c d
+
+*/

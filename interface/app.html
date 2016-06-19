@@ -3,13 +3,570 @@
 <head>
 	<title>Fight Plan Generator</title>
 	
-	<script type="text/javascript" src="/lib/semantic.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript">
+	/*! LAB.js (LABjs :: Loading And Blocking JavaScript)
+	    v2.0.3 (c) Kyle Simpson
+	    MIT License
+	    */
+	    (function(o){var K=o.$LAB,y="UseLocalXHR",z="AlwaysPreserveOrder",u="AllowDuplicates",A="CacheBust",B="BasePath",C=/^[^?#]*\//.exec(location.href)[0],D=/^\w+\:\/\/\/?[^\/]+/.exec(C)[0],i=document.head||document.getElementsByTagName("head"),L=(o.opera&&Object.prototype.toString.call(o.opera)=="[object Opera]")||("MozAppearance"in document.documentElement.style),q=document.createElement("script"),E=typeof q.preload=="boolean",r=E||(q.readyState&&q.readyState=="uninitialized"),F=!r&&q.async===true,M=!r&&!F&&!L;function G(a){return Object.prototype.toString.call(a)=="[object Function]"}function H(a){return Object.prototype.toString.call(a)=="[object Array]"}function N(a,c){var b=/^\w+\:\/\//;if(/^\/\/\/?/.test(a)){a=location.protocol+a}else if(!b.test(a)&&a.charAt(0)!="/"){a=(c||"")+a}return b.test(a)?a:((a.charAt(0)=="/"?D:C)+a)}function s(a,c){for(var b in a){if(a.hasOwnProperty(b)){c[b]=a[b]}}return c}function O(a){var c=false;for(var b=0;b<a.scripts.length;b++){if(a.scripts[b].ready&&a.scripts[b].exec_trigger){c=true;a.scripts[b].exec_trigger();a.scripts[b].exec_trigger=null}}return c}function t(a,c,b,d){a.onload=a.onreadystatechange=function(){if((a.readyState&&a.readyState!="complete"&&a.readyState!="loaded")||c[b])return;a.onload=a.onreadystatechange=null;d()}}function I(a){a.ready=a.finished=true;for(var c=0;c<a.finished_listeners.length;c++){a.finished_listeners[c]()}a.ready_listeners=[];a.finished_listeners=[]}function P(d,f,e,g,h){setTimeout(function(){var a,c=f.real_src,b;if("item"in i){if(!i[0]){setTimeout(arguments.callee,25);return}i=i[0]}a=document.createElement("script");if(f.type)a.type=f.type;if(f.charset)a.charset=f.charset;if(h){if(r){e.elem=a;if(E){a.preload=true;a.onpreload=g}else{a.onreadystatechange=function(){if(a.readyState=="loaded")g()}}a.src=c}else if(h&&c.indexOf(D)==0&&d[y]){b=new XMLHttpRequest();b.onreadystatechange=function(){if(b.readyState==4){b.onreadystatechange=function(){};e.text=b.responseText+"\n//@ sourceURL="+c;g()}};b.open("GET",c);b.send()}else{a.type="text/cache-script";t(a,e,"ready",function(){i.removeChild(a);g()});a.src=c;i.insertBefore(a,i.firstChild)}}else if(F){a.async=false;t(a,e,"finished",g);a.src=c;i.insertBefore(a,i.firstChild)}else{t(a,e,"finished",g);a.src=c;i.insertBefore(a,i.firstChild)}},0)}function J(){var l={},Q=r||M,n=[],p={},m;l[y]=true;l[z]=false;l[u]=false;l[A]=false;l[B]="";function R(a,c,b){var d;function f(){if(d!=null){d=null;I(b)}}if(p[c.src].finished)return;if(!a[u])p[c.src].finished=true;d=b.elem||document.createElement("script");if(c.type)d.type=c.type;if(c.charset)d.charset=c.charset;t(d,b,"finished",f);if(b.elem){b.elem=null}else if(b.text){d.onload=d.onreadystatechange=null;d.text=b.text}else{d.src=c.real_src}i.insertBefore(d,i.firstChild);if(b.text){f()}}function S(c,b,d,f){var e,g,h=function(){b.ready_cb(b,function(){R(c,b,e)})},j=function(){b.finished_cb(b,d)};b.src=N(b.src,c[B]);b.real_src=b.src+(c[A]?((/\?.*$/.test(b.src)?"&_":"?_")+~~(Math.random()*1E9)+"="):"");if(!p[b.src])p[b.src]={items:[],finished:false};g=p[b.src].items;if(c[u]||g.length==0){e=g[g.length]={ready:false,finished:false,ready_listeners:[h],finished_listeners:[j]};P(c,b,e,((f)?function(){e.ready=true;for(var a=0;a<e.ready_listeners.length;a++){e.ready_listeners[a]()}e.ready_listeners=[]}:function(){I(e)}),f)}else{e=g[0];if(e.finished){j()}else{e.finished_listeners.push(j)}}}function v(){var e,g=s(l,{}),h=[],j=0,w=false,k;function T(a,c){a.ready=true;a.exec_trigger=c;x()}function U(a,c){a.ready=a.finished=true;a.exec_trigger=null;for(var b=0;b<c.scripts.length;b++){if(!c.scripts[b].finished)return}c.finished=true;x()}function x(){while(j<h.length){if(G(h[j])){try{h[j++]()}catch(err){}continue}else if(!h[j].finished){if(O(h[j]))continue;break}j++}if(j==h.length){w=false;k=false}}function V(){if(!k||!k.scripts){h.push(k={scripts:[],finished:true})}}e={script:function(){for(var f=0;f<arguments.length;f++){(function(a,c){var b;if(!H(a)){c=[a]}for(var d=0;d<c.length;d++){V();a=c[d];if(G(a))a=a();if(!a)continue;if(H(a)){b=[].slice.call(a);b.unshift(d,1);[].splice.apply(c,b);d--;continue}if(typeof a=="string")a={src:a};a=s(a,{ready:false,ready_cb:T,finished:false,finished_cb:U});k.finished=false;k.scripts.push(a);S(g,a,k,(Q&&w));w=true;if(g[z])e.wait()}})(arguments[f],arguments[f])}return e},wait:function(){if(arguments.length>0){for(var a=0;a<arguments.length;a++){h.push(arguments[a])}k=h[h.length-1]}else k=false;x();return e}};return{script:e.script,wait:e.wait,setOptions:function(a){s(a,g);return e}}}m={setGlobalDefaults:function(a){s(a,l);return m},setOptions:function(){return v().setOptions.apply(null,arguments)},script:function(){return v().script.apply(null,arguments)},wait:function(){return v().wait.apply(null,arguments)},queueScript:function(){n[n.length]={type:"script",args:[].slice.call(arguments)};return m},queueWait:function(){n[n.length]={type:"wait",args:[].slice.call(arguments)};return m},runQueue:function(){var a=m,c=n.length,b=c,d;for(;--b>=0;){d=n.shift();a=a[d.type].apply(null,d.args)}return a},noConflict:function(){o.$LAB=K;return m},sandbox:function(){return J()}};return m}o.$LAB=J();(function(a,c,b){if(document.readyState==null&&document[a]){document.readyState="loading";document[a](c,b=function(){document.removeEventListener(c,b,false);document.readyState="complete"},false)}})("addEventListener","DOMContentLoaded")})(this);
 
-	<link rel="stylesheet" type="text/css" href="/lib/semantic.min.css">
+	    $LAB.script('https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js').wait()
+	    .script('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js')
+	    .wait(function () {
+	    	$('.ui.accordion').accordion({
+	    		exclusive: true
+	    	})
+	    	$('.ui.checkbox')
+	    	.checkbox()
+	    	;
+	    })
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
 	<link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
-	test
+	<div class="ui pointing menu"> <!-- Top Meny-->
+		<a class="active item">
+			Input
+		</a>
+		<a class="item">
+			Result / Fight Plan
+		</a>
+		<a class="item">
+			Statistics
+		</a>
+	</div>
+	<div class="ui segment"> <!--Page for Input-->
+		<h1 class="ui header">Input</h1>
+		<div class="ui accordion">
+			<div class="active title">
+				<i class="dropdown icon"></i>
+				Teams
+			</div>
+			<div class="active content">
+				<div class="ui basic segment"> <!--Table containing all teams with cotrresponding members for reference, should be retrieved form external database-->
+					<table class="ui compact padded table">
+						<thead>
+							<tr><th class="single line">Team Name</th>
+								<th class="single line">Problem 1</th>
+								<th class="single line">Member 1</th>
+								<th class="single line">Problem 2</th>
+								<th class="single line">Member 2</th>
+								<th class="single line">Problem 3</th>
+								<th class="single line">Member 3</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<h3 class="ui header">GenericName</h3>
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3 class="ui header">GenericName</h3>
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h3 class="ui header">GenericName</h3>
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName 
+								</td>
+								<td>
+									#
+								</td>
+								<td>
+									FirstName LastName
+								</td>
+							</tr>
+						</tbody>
+						<tfoot class="full-width">
+							<tr>
+								<th colspan="7">
+									<div class="ui right floated small primary labeled icon button">
+										<i class="user icon"></i> Add Team <!--Option to add a team with members and problems (not yet implemented)-->
+									</div>
+								</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+			<div class="title">
+				<i class="dropdown icon"></i>
+				Soft Constraint Valuation
+			</div>
+			<div class="content">
+				<div class="ui basic segment">
+					<div class="ui form"> <!--List of soft constraints-->
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 1: </label> <!--Name of constraint-->
+								<div class="five wide field">
+									<input type="text" placeholder="value"> <!--Valuation of constraint-->
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text"> <!--Former value of constraint to compare-->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 2: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 3: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 4: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 5: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 6: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 7: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ui form">
+						<div class="fields">
+							<div class="inline fields">
+								<label>Constraint 8: </label>
+								<div class="five wide field">
+									<input type="text" placeholder="value">
+								</div>
+								<div class="four wide field">
+									<input placeholder="former" readonly="" type="text">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="title">
+				<i class="dropdown icon"></i>
+				Hard Constraints
+			</div>
+			<div class="content">
+				<div class="ui basic segment">
+					<div class="ui form"> <!--List of hard constraints-->
+						<div class="inline fields">
+							<label>Constraint 1: </label> <!--Name of constraint-->
+							<div class="field">
+								<div class="ui checkbox">
+									<input type="checkbox" tabindex="0" class="hidden"> <!--On/Off checkbox for constraint-->
+								</div>
+							</div>
+						</div>
+						<div class="inline fields">
+							<label>Constraint 2: </label>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type="checkbox" tabindex="0" class="hidden">
+								</div>
+							</div>
+						</div>
+						<div class="inline fields">
+							<label>Constraint 3: </label>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type="checkbox" tabindex="0" class="hidden">
+								</div>
+							</div>
+						</div>
+						<div class="inline fields">
+							<label>Constraint 4: </label>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type="checkbox" tabindex="0" class="hidden">
+								</div>
+							</div>
+						</div>
+						<div class="inline fields">
+							<label>Constraint 5: </label>
+							<div class="field">
+								<div class="ui checkbox">
+									<input type="checkbox" tabindex="0" class="hidden">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ui divider"></div>
+		<div class="ui form">
+			<div class="inline field">
+				<label>Generations: </label>
+				<input type="text" placeholder="big numbers">
+			</div>
+		</div>
+		<div class="ui big green icon button">
+			Start
+		</div>
+	</div>
+	<div class="ui segment"> <!--Page for Result / Fight Plan-->
+		<h1 class="ui header">Fight Plan</h1>
+		<div class="ui progress">
+			<div class="bar">
+				<div class="progress"></div> <!--Progress Bar, indicating progress of generations-->
+			</div>
+			<div class="label">Calculating Fight Plan: Generation x of y</div> <!--Generation x: current / Generation y: final/last-->
+		</div>
+		<div class="ui accordion"><!--Resulting Fight Plan, see former Fight plans-->
+			<div class="active title">
+				<i class="dropdown icon"></i>
+				Round 1
+			</div>
+			<div class="active content">
+				<table class="ui celled structured table"> 
+					<thead>
+						<tr>
+							<th class="center aligned" colspan="5"><h3 class="ui header">Round 1</h3></th>
+						</tr>
+						<tr>
+							<th>Fight</th>
+							<th>Problem</th>
+							<th>Reporter</th>
+							<th>Opponent</th>
+							<th>Reviewer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="positive"><!--class="positive" colors the row green (if in tr), symbolizing failure-->
+							<td rowspan="3"><h4 class="ui header">Fight 1.1 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr class="positive"><!--class="positive" colors the row green (if in tr), symbolizing failure-->
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr class="positive"><!--class="positive" colors the row green (if in tr), symbolizing failure-->
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 1.2 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr class="negative"> <!--class="negative" colors the row red (if in tr), symbolizing failure-->
+							<td rowspan="3" class="warning"><h4 class="ui header">Fight 1.3 </h4><br>Room #</td> <!--class="warning" colors the field orange/warning (field if in td), symbolizing failure-->
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr class="negative"> <!--class="negative" colors the row red (if in tr), symbolizing failure-->
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="title">
+				<i class="dropdown icon"></i>
+				Round 2
+			</div>
+			<div class="content">
+				<table class="ui celled structured table">
+					<thead>
+						<tr>
+							<th class="center aligned" colspan="5"><h3 class="ui header">Round 2</h3></th>
+						</tr>
+						<tr>
+							<th>Fight</th>
+							<th>Problem</th>
+							<th>Reporter</th>
+							<th>Opponent</th>
+							<th>Reviewer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 2.1 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 2.2 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 2.3 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="title">
+				<i class="dropdown icon"></i>
+				Round 3
+			</div>
+			<div class="content">
+				<table class="ui celled structured table">
+					<thead>
+						<tr>
+							<th class="center aligned" colspan="5"><h3 class="ui header">Round 3</h3></th>
+						</tr>
+						<tr>
+							<th>Fight</th>
+							<th>Problem</th>
+							<th>Reporter</th>
+							<th>Opponent</th>
+							<th>Reviewer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 3.1 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 3.2 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+						<tr>
+							<td rowspan="3"><h4 class="ui header">Fight 3.3 </h4><br>Room #</td>
+							<td># ProblemName1</td>
+							<td>TeamName1 Rep1FirstLast</td>
+							<td>TeamName2 Opp1FirstLast</td>
+							<td>TeamName3 Rev1FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName2</td>
+							<td>TeamName2 Rep2FirstLast</td>
+							<td>TeamName3 Opp2FirstLast</td>
+							<td>TeamName1 Rev2FirstLast</td>
+						</tr>
+						<tr>
+							<td># ProblemName3</td>
+							<td>TeamName3 Rep3FirstLast</td>
+							<td>TeamName1 Opp3FirstLast</td>
+							<td>TeamName2 Rev3FirstLast</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="ui segment"> <!--Page for Statistics-->
+		<h1 class="ui header">Statistics</h1>
+		<p>This page does not have any information yet. The idea currently is to use <a href="http://www.highcharts.com">highcharts</a> to display the information. </p>
+	</div>
 </body>
 </html>
