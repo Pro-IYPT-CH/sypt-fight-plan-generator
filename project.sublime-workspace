@@ -1,0 +1,902 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"requ",
+				"requirejs"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"conca",
+				"concatCss"
+			],
+			[
+				"get",
+				"getResource"
+			],
+			[
+				"req",
+				"requiredScripts"
+			],
+			[
+				"l",
+				"logLevel〔variable〕"
+			],
+			[
+				"re",
+				"requiredScripts"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"currenD",
+				"$currentDayOfMonth〔variable〕"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"do",
+				"downloading"
+			],
+			[
+				"com",
+				"compiledTemplates"
+			],
+			[
+				"tor",
+				"torrent"
+			],
+			[
+				"de",
+				"deluge"
+			],
+			[
+				"De",
+				"Deluge"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"metho",
+				"methodName"
+			],
+			[
+				"ec",
+				"executeMethod"
+			],
+			[
+				"meth",
+				"methodName"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"au",
+				"authenticate"
+			],
+			[
+				"fil",
+				"filterCategories"
+			],
+			[
+				"filterC",
+				"filterCategoryNames"
+			],
+			[
+				"even",
+				"eventRender〔function〕"
+			],
+			[
+				"ret",
+				"returnEvents〔variable〕"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"c",
+				"categories"
+			],
+			[
+				"ha",
+				"hasBeenSetup"
+			],
+			[
+				"cal",
+				"calendar"
+			],
+			[
+				"term",
+				"termInfo"
+			],
+			[
+				"reg",
+				"registerCategories"
+			],
+			[
+				"cale",
+				"calendar"
+			],
+			[
+				"eve",
+				"eventList〔variable〕"
+			],
+			[
+				"filt",
+				"filterCategories〔variable〕"
+			],
+			[
+				"cate",
+				"category〔argument〕"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"Ca",
+				"Category"
+			],
+			[
+				"color",
+				"colorGenerator"
+			],
+			[
+				"is",
+				"isColorCategory"
+			],
+			[
+				"gou",
+				"groupEnd"
+			],
+			[
+				"go",
+				"groupEnd"
+			],
+			[
+				"filterCa",
+				"filterCategories"
+			],
+			[
+				"tran",
+				"transformLists"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"sett",
+				"settingsEls〔variable〕"
+			],
+			[
+				"ov",
+				"overlapEls"
+			],
+			[
+				"colo",
+				"colours〔variable〕"
+			],
+			[
+				"col",
+				"colour"
+			],
+			[
+				"hu",
+				"hueStep"
+			],
+			[
+				"prev",
+				"prevButton"
+			],
+			[
+				"next",
+				"nextButton"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"packerOptions"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"Pack",
+				"PackingMethod"
+			],
+			[
+				"as",
+				"asArray"
+			],
+			[
+				"ne",
+				"newVec"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"butto",
+				"button-secondary"
+			],
+			[
+				"api",
+				"api_url"
+			],
+			[
+				"anim",
+				"animationParams"
+			],
+			[
+				"old",
+				"oldParent"
+			],
+			[
+				"wid",
+				"widthsAfter"
+			],
+			[
+				"an",
+				"animationParams"
+			],
+			[
+				"last",
+				"lastWidth"
+			],
+			[
+				"ani",
+				"animate"
+			],
+			[
+				"child",
+				"childNodes"
+			],
+			[
+				"han",
+				"handleRemaining"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"inner",
+				"innerText"
+			],
+			[
+				"or",
+				"originalText"
+			],
+			[
+				"drag",
+				"dragOffset"
+			],
+			[
+				"te",
+				"texts"
+			],
+			[
+				"chil",
+				"childNodes"
+			],
+			[
+				"cur",
+				"currentText"
+			],
+			[
+				"drop",
+				"dropTargets"
+			],
+			[
+				"alr",
+				"alreadyDropped"
+			],
+			[
+				"dropTa",
+				"dropTarget"
+			],
+			[
+				"init",
+				"initalObjects"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "FPG/data.py",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix",
+				"name": "#"
+			}
+		},
+		{
+			"file": "FPG/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packe",
+		"selected_items":
+		[
+			[
+				"packe",
+				"Package Control: Discover Packages"
+			],
+			[
+				"set syntax: css",
+				"Set Syntax: PostCSS"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"star",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"start",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublim",
+				"SublimeServer: Start SublimeServer"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"grun",
+				"Grunt"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 219.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"node",
+			"1+1"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Aedan/Dropbox/Projects/SYPT - Tournament/sypt-fight-plan-generator"
+	],
+	"file_history":
+	[
+		"/Users/Aedan/Dropbox/Projects/SYPT - Tournament/sypt-fight-plan-generator/setup.py",
+		"/Users/Aedan/Dropbox/Projects/SYPT - Tournament/sypt-fight-plan-generator/requirements.txt",
+		"/Users/Aedan/Dropbox/Projects/SYPT - Tournament/sypt-fight-plan-generator/Makefile",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/package.json",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/css/normalize.css",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/css/foundation.css",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/User/gulp-task.sublime-snippet",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/css/main.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/071D0F37-3602-4C95-B53F-7845AC66BA6F/home.html",
+		"/Users/Aedan/Dropbox/Websites/Predigerkirche/config-loader.js",
+		"/Users/Aedan/Dropbox/Websites/Predigerkirche/site.js",
+		"/Users/Aedan/Dropbox/Websites/Predigerkirche.sublime-project",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/0EE61549-1D8D-4966-8725-382152E4F244/index.html",
+		"/Users/Aedan/Dropbox/Websites/Predigerkirche/index.html",
+		"/Users/Aedan/Dropbox/Temp/Electron Test/tApp/package.json",
+		"/Users/Aedan/Dropbox/Temp/Electron Test/tApp/index.html",
+		"/Users/Aedan/Dropbox/Temp/Electron Test/tApp/main.js",
+		"/Users/Aedan/Dropbox/Temp/Electron Test/tApp.sublime-workspace",
+		"/Users/Aedan/Dropbox/Temp/Electron Test/app.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/router.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/Gruntfile.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/index.html",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/app.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/main.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/marionette.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/modules/backend.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/jquery.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/modules/views/post.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/underscore.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/src/lib/modules/router.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/npm-debug.log",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/project.sublime-project",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/main.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/models/post.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/app/router.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/index.html",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/app.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/backend.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/views/post.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/router.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/predigerkirche.js",
+		"/Volumes/ftp.predigerkirche.ch/web/dev/htdocs/revsite/scripts/lib/require.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/scripts/undescore.js",
+		"/Users/Aedan/Dropbox/Work/Predigerkirche/JS/(function(t){var e=typeof self==\"object\"&&self.sel",
+		"/Users/Aedan/Desktop/script.sh",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/wordpress/wp-content/plugins/dcapi/dcapi.php",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/wordpress/wp-content/plugins/dcapi/api/output.php",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/css/my-app.css",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/pdf/pdf_generator.php",
+		"/X/web/mc/htdocs/wordpress/wp-content/plugins/dcapi/api/output.php",
+		"/X/web/mc/htdocs/wordpress/wp-content/plugins/dcapi/dcapi.php",
+		"/X/web/mc/htdocs/wordpress/wp-content/plugins/dcapi/lib/acf_dcapi.php",
+		"/X/web/mc/htdocs/wordpress/wp-content/plugins/dcapi/lib/color_generator.php",
+		"/C/Users/David/AppData/Local/Temp/fz3temp-1/predigern.php",
+		"/X/web/mc/htdocs/wordpress/wp-content/plugins/dcapi/dcapi (new).php",
+		"/C/Users/David/Desktop/widget.php",
+		"/X/web/mc/htdocs/pdf/color_generator.php",
+		"/X/web/mc/htdocs/mc.sublime-project",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/js/my-app.js",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/404E72A0-A02A-4D3F-AD6A-C291B4CB5724/my-app.js",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/libtorrent/size_type.hpp",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/entry.hpp",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/simple_client.cpp",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/libtorrent/examples/simple_client.cpp",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/client.py",
+		"/Users/Aedan/Dropbox/Temp/WebTorrent/index.html",
+		"/Users/Aedan/Dropbox/Websites/Aedan Christie/index.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/190B8337-476B-42A4-9756-B63C2E30DC2F/my-app.js",
+		"/Users/Aedan/Dropbox/Websites/Aedan Christie/js/backbone.js",
+		"/Users/Aedan/Dropbox/Websites/Aedan Christie/build.config.js",
+		"/Users/Aedan/Dropbox/Projects/WebTorrent/underscore.js",
+		"/Users/Aedan/Dropbox/Projects/WebTorrent/backbone.js",
+		"/Users/Aedan/Dropbox/Projects/WebTorrent/server.js",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/event-details.html",
+		"/Volumes/ftp.christie.ch (mc@christie.ch)/htdocs/index.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/238A11C3-A7B3-4E36-8531-9ABA55A86FC7/my-app.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/3C4D5BDC-D086-4411-B9CF-98DE6C61F330/index.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/41A33844-D06E-401D-B415-78E862702D5F/my-app.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/F1A83CC5-FF47-4D34-A5DB-C11453CD0285/my-app.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/C8BE9D42-722E-4CAC-85E3-2D19C540D2E1/index.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/EEDFC047-B73E-4816-B969-352F32D376E8/my-app.js",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/B5E84D73-5B9D-40EC-B88A-ADC177E702F4/calendarView.html",
+		"/Users/Aedan/Dropbox/Projects/MC_Calendar/people.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/A354E7DE-7665-48D6-BF82-AA47711EA0C0/my-app.js",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/557FE4CD-85D8-4196-ACDD-3E930957A774/my-app.css",
+		"/Users/Aedan/Dropbox/Projects/MC_Calendar/about.html",
+		"/Users/Aedan/Dropbox/Projects/MC_Calendar/index alt.html",
+		"/Users/Aedan/Dropbox/Projects/MC_Calendar/index.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/806D7E42-32CB-4DD3-A471-D54DE97D4FF3/index.html",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/src/less/routes/page.less",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/src/less/routes/post.less",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/bin/index.html",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/src/index.html",
+		"/Users/Aedan/Desktop/index.html",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/build.config.js",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/Predigerkirche/Gruntfile.js",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Aedan/Dropbox/Projects/Predigerkirche/project.json",
+		"/Users/Aedan/Desktop/Packing/packing.js",
+		"/Users/Aedan/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/F9A88C97-0201-4B0C-B34D-4C0F9DB56375/posts-page.php",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/FC903583-DA06-4C05-9AA2-6BC857583F31/style.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/6BFB7F34-6E45-4B02-9377-4FA2E692E99D/page-custom.php",
+		"/Users/Aedan/Desktop/grafik.svg",
+		"/Users/Aedan/Downloads/vgw-code-82/DEV/Y3D/examples/Vcross/ViewResultsUsingMayavi.bat",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/1D4EE197-3612-4E5D-8DC1-5ABD29F7BAFC/dcapi.php",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/428C3534-7015-46C9-9D74-75B8CAC61CB5/serve.php",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/F403C761-E912-4411-ACFD-8E3B12397D20/cAPI.css",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/CA7393AF-1807-451F-83D5-6A60462F64E1/cAPI.js",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/E09E0FF6-E5C6-41B8-9881-607E0E55F20F/cAPI.php",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/4ACA9E51-6C41-4EC8-9003-B68F1404CE4C/cAPI.php",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/F140D657-7F9C-48AA-A1E1-849D5554E8AE/test.html",
+		"/Users/Aedan/Library/Caches/Cleanup At Startup/Transmit/F140D657-7F9C-48AA-A1E1-849D5554E8AE/cAPI.php",
+		"/Users/Aedan/Dropbox/Temp/Tree View Test/main.js",
+		"/Users/Aedan/Dropbox/Temp/Tree View Test/index.html",
+		"/Volumes/ftp.christie.ch/htdocs/admin/wp-content/plugins/cAPI/cAPI.txt",
+		"/Users/Aedan/Dropbox/temp/Tree View Test/jstree.min.js",
+		"/Users/Aedan/Dropbox/Temp/index old.html",
+		"/Users/Aedan/Downloads/turnjs4/samples/basic/css/basic.css",
+		"/Users/Aedan/Dropbox/Temp/Test.js",
+		"/Users/Aedan/Downloads/slick-1.4.0/bower.json",
+		"/Users/Aedan/Desktop/plugin.php",
+		"/Users/Aedan/Documents/Local Documents/prediger/index.html",
+		"/Users/Aedan/Dropbox/Temp/index.html",
+		"/Users/Aedan/Dropbox/Temp/PDF Viewer Test/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"():",
+			"\\\\",
+			"] ",
+			" [",
+			"format-author",
+			"\"n.d.\"",
+			" \n",
+			"	<",
+			"head",
+			"this.",
+			"script",
+			"colorCate",
+			"f7app",
+			"cacheDateTime",
+			"get_blob",
+			"get_blob_data",
+			"$this",
+			"register_transformation",
+			"get_term_names",
+			"posts_filter_restrict_manage_posts",
+			"standard_feed_processor",
+			"feed process",
+			"posts_filter_restrict_manage_posts",
+			"handle_post_modified",
+			"get_term_names",
+			"next",
+			"posts_filter_restrict_manage_posts",
+			"js",
+			"zebra",
+			"posts_filter_restrict_manage_posts",
+			"get_term_name",
+			"get_blob('config')",
+			"get_blob(\"config\")",
+			"handle_post_modified",
+			"get_term_name",
+			"handle_post_modified",
+			"color",
+			"get_field",
+			"color",
+			"array_",
+			"term",
+			"category_page",
+			"colo",
+			"standard_termInfo_filter",
+			"DCAPI_termInfo_filter",
+			"register_termInfo_filter",
+			"standard_termInfo_filter",
+			"setItem",
+			"$.cookie",
+			"ajax",
+			"get",
+			"fetchEve",
+			"Ext.ux.util.RpcClient",
+			"deluge.config.base",
+			"deluge.config.base  +",
+			"url:",
+			".url",
+			"get_torrent",
+			"torrents",
+			"torrent",
+			"Deluge =",
+			"getEvents",
+			"event.location",
+			"\"admin\"",
+			"allcats",
+			"2015-06-14",
+			"2015-06-15",
+			">\n",
+			"    <script src='fullcalendar/lib/moment.min.js'></script>",
+			">\n",
+			",\n		        {\n		            title  : \"Martinez & Co.: Dress\",\n		            start  : '2015-06-14T15:00:00',\n		            end  : '2015-06-14T18:00:00',\n		            location: 4\n		        },",
+			",\n		        {\n		            title  : \"Welcome lunch for opera singers\",\n		            start  : '2015-06-14T13:00:00',\n		            end  : '2015-06-14T14:30:00',\n		            location: 1\n		        },",
+			"\n		        {\n		            title  : \"Welcome lunch for opera singers\",\n		            start  : '2015-06-14T13:00:00',\n		            end  : '2015-06-14T14:30:00',\n		            location: 1\n		        },",
+			"\"title\"",
+			"\"type\"",
+			"next",
+			"link",
+			"\"/",
+			".header #subtitle",
+			"background-color",
+			"body",
+			"translate",
+			"		                ",
+			"\n										<th>Fields</th>",
+			">\n",
+			"()",
+			"<li>\n						<a href=\"#\">Leitbild 1></a>\n					</li>",
+			"object",
+			"{ duration: animationDuration, queue: false }"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\",
+			"\\] ",
+			" \\[",
+			"\"o. J.\"",
+			"categories",
+			"2015-06-15",
+			"2015-06-16",
+			"title",
+			"type",
+			"options.animationParams"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "FPG/data.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "#",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "FPG/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
